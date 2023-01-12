@@ -1,0 +1,160 @@
+/**
+* 2007-2022 PrestaShop
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Academic Free License (AFL 3.0)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* http://opensource.org/licenses/afl-3.0.php
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to license@prestashop.com so we can send you a copy immediately.
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade PrestaShop to newer
+* versions in the future. If you wish to customize PrestaShop for your
+* needs please refer to http://www.prestashop.com for more information.
+*
+*  @author    PrestaShop SA <contact@prestashop.com>
+*  @copyright 2007-2022 PrestaShop SA
+*  @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+*  International Registered Trademark & Property of PrestaShop SA
+*
+* Don't forget to prefix your containers with your own identifier
+* to avoid any conflicts with others containers.
+*/
+
+.order_vitual_products {
+    display: table;
+    position: relative;
+    overflow: auto;
+    width: 100%;
+}
+
+.product_cover_image {
+    width: 30%;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+
+.all_versions {
+    width: 100%;
+    height: 100%;
+    right: 0;
+}
+
+.version_column_heading ul li, .product_versions_list ul li {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    float:left;
+    padding:5px;
+}
+
+.versions_main_heading {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.versions_main_heading {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #7a7a7a;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.version_column_heading {
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+}
+
+.version_column_heading ul {
+    float: left;
+    width: 100%;
+}
+
+.version_column_heading ul li {
+    color: #7a7a7a;
+    background-color: #f6f6f6;
+    font-weight: bold;
+}
+
+.product_versions_list {
+    float: left;
+    width: 100%;
+}
+
+.product_versions_list ul {
+    float: left;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.product_versions_list li {
+    color: #7a7a7a;
+}
+
+.no-version-found{
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    padding-top: 23px;
+}
+
+.order_vitual_products {
+    border: 1px solid #7a7a7a;
+}
+
+.div_my_data .order_vitual_products{
+    margin-top : 20px;
+}
+
+.div_my_data .order_vitual_products:nth-child(1){
+    margin-top : 0;
+}
+
+.product_cover_image.for_1_6 img {
+    width: 80%;
+}
+
+.buy_1_7 {
+    background-color: #2fb5d2;
+    color: #fff;
+    border-color: transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+a.buy_1_7:hover {
+    color: #fff;
+    background-color: #1e788c;
+}
+
+.buy_1_6 {
+    border-color: #666666 #5f5f5f #292929 #5f5f5f;
+    border: 1px solid;
+    background: #6f6f6f;
+    color: #fff;
+    padding: 3px 8px 3px 8px;
+}
+
+a.buy_1_6:hover {
+    color: #fff;
+    border-color: #303030 #303030 #666666 #444444;
+    background: #575757;
+}
+
+a.get_1_6 i {
+    font-size: 25px;
+}

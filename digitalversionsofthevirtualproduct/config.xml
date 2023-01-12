@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>digitalversionsofthevirtualproduct</name>
+	<displayName><![CDATA[Digital versions of the virtual product]]></displayName>
+	<version><![CDATA[1.0.0]]></version>
+	<description><![CDATA[This module allow to manage the updates and download of digital products.]]></description>
+	<author><![CDATA[Webgarh]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+</module>
